@@ -8,21 +8,46 @@
   <title>Resume</title>
 </head>
 <body>
-  <main>
-    <header><h1>Resume</h1></header>
-    <ol>
-      <li>Uladzislau Pauliushchyk</li>
-      <li>+375 29 358 95 45 plusch321@mail.ru</li>
-      <li>Summary: i enjoy styding JS, and i want to be at this pro.</li>
-      <li>Skills: JS CSS HTML Git</li>
-      <li><a href="https://github.com/plusch011/sudoku">https://github.com/plusch011/sudoku</a></li>
-      <li>Junior: Web Programming courses (learning)</li>
-      <li>Average, learning JS CSS HTML</li>
-      <li>A2+ at EPAM site test</li>
-      <li><img src="assets/Photo.jpg" alt="My pfoto" width="640" height=""></li>
-    </ol>
-  </main>
-
+  <div class="flex-box">
+    <header>
+      <h1>Uladzislau Pauliushchyk</h1>
+      <img src="assets/photo.jpg" alt="" width="500">
+    </header>
+    <nav>
+      <ul>
+        <li>about</li>
+        <li>code-skills</li>
+        <li>education</li>
+        <li>contacts</li>
+      </ul>
+  </nav>
+    <section class="about">
+      <p>i enjoy styding JS, and i want to be pro at this</p>
+    </section>
+    <section class="code-skills">
+      <ul>
+        <li>JS</li>
+        <li>CSS</li>
+        <li>HTML</li>
+        <li>Git</li>
+      </ul>
+      <p>Junior</p>
+    </section>
+    <section class="links">
+      <a href="https://github.com/plusch011/sudoku" target="_blank">Solving sudoku</a>
+    </section>
+    <section class="educ-lvl">
+      <p>Average, learning JS CSS HTML</p>
+      <p>A2+ at EPAM site test</p>
+    </section>
+    <section class="contacts">
+      <p class="num">+375 29 358 95 45</p>
+      <p class="mail">plusch321@mail.ru</p>
+    </section>
+    <footer>
+      <p>Thanks. Have a nice day!</p>
+    </footer>
+  </div>
     
 </body>
 </html>

@@ -1,3 +1,15 @@
-img {
-  width: 640px;
+/* Позиционирование
+Блочная модель
+Типографика
+Оформление
+Анимация
+Разное */
+
+.flex-box {
+  margin: auto auto;
+
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  width: 1024px;
 }
