@@ -1,3 +1,10 @@
+
+/* #4a707a
+#7697a0
+#94b0b7
+#c2c8c5
+#ddddda */
+
 * {margin: 0; padding: 0;}
 
 html {
@@ -45,6 +52,7 @@ img,
 
 section h2 {
   font-size: 2rem;
+  color: #394c52;
 }
 
 section p {
@@ -63,7 +71,7 @@ section p {
 
 .img-box {
   justify-content: center;
-  background: #dddddddd;
+  background: #c2c8c5dd;
 }
 
 img {
@@ -78,7 +86,7 @@ img {
 #info {
   justify-content: space-between;
   align-items: flex-start;
-  background: #ddddddaa;
+  background: #dddddaaa;
 }
 
 .name {
@@ -86,9 +94,12 @@ img {
 }
 
 .name h1 {
+  margin-top: -25px;
+
   font-weight: 500;
   font-size: 7rem;
-  margin-top: -25px;
+  color: #00356a;
+  
 }
 
 .name h2 {
@@ -117,21 +128,24 @@ li {
 
 .about {
   font-size: 1.6rem;
-  background: #e6e6e6dd;
+  background: #dddddadd;
 }
 
 .about-info {
-  font-size: 1.6rem;
-  background: #eeeeeeaa;
+  background: #c2c8c5aa;
+}
+
+.about-info p {
+  font-size: 2rem;
 }
 
 .my-skills {
   font-size: 1.6rem;
-  background: #d1d1d1dd
+  background: #c2c8c5dd;
 }
 
 .my-skills-info {
-  background: #d3d3d3aa;
+  background:#dddddaaa;
 }
 
 .grid-ins {
@@ -152,12 +166,12 @@ li {
 
 .portfolio {
   min-height: 200px;
-  background: #d3d3d3dd;
+  background: #dddddadd;
 }
 
 .portfolio-info {
   min-height: 200px;
-  background: #ddddddaa;
+  background: #c2c8c5aa;
 }
 
 .portfolio-info li {
@@ -175,12 +189,16 @@ li {
 }
 
 .footer {
-  height: 200px;
+  min-height: 200px;
   background: #ccccccdd;
 }
 
 .footer-info {
-  height: 200px;
+  min-height: 200px;
+
+  font-size: 2rem;
+  color: #303030;
+
   background: #c0c0c0dd;
 }
 
