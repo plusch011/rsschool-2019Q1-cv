@@ -146,6 +146,10 @@ li {
   padding-bottom: 15px;
 }
 
+.portfolio-info .grid-ins {
+  justify-items: center;
+}
+
 .portfolio {
   min-height: 200px;
   background: #d3d3d3dd;
@@ -154,6 +158,20 @@ li {
 .portfolio-info {
   min-height: 200px;
   background: #ddddddaa;
+}
+
+.portfolio-info li {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 230px;
+  margin-bottom: 80px;
+  padding: 30px 30px;
+  text-align: center;
+
+  font-size: 3rem;
+  font-weight: bold;
+
+  background: #cccccc;
 }
 
 .footer {
@@ -166,3 +184,8 @@ li {
   background: #c0c0c0dd;
 }
 
+a {
+  color: #4d4d4d;
+  text-decoration: none;
+  
+}
