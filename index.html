@@ -4,50 +4,92 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
   <link rel="stylesheet" href="style.css">
-  <title>Resume</title>
+  <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+
+  <title>My resume</title>
+    
+    
 </head>
 <body>
-  <div class="flex-box">
-    <header>
-      <h1>Uladzislau Pauliushchyk</h1>
-      <img src="assets/photo.jpg" alt="" width="500">
-    </header>
-    <nav>
-      <ul>
-        <li>about</li>
-        <li>code-skills</li>
-        <li>education</li>
-        <li>contacts</li>
+  <div class="grid">
+    <section class="img-box" id="img-box">
+      <img src="assets/аuthor.jpg" alt="" width="250">
+    </section>
+    <section class="info" id="info">
+      <div class="empty"><div></div></div>
+      <div class="name">
+        <h2>Uladzislau</h2>
+        <h1>Pauliushchyk</h1>
+        <p>Web & Front-end Developer</p>
+      </div>
+      
+      <ul class="contacts">
+        <li>
+          <h3>Location</h3>
+          <p>Belarus</p>
+        </li>
+        <li>
+          <h3>Phone</h3>
+          <p>+375 29 358 95 45</p>
+        </li>
+        <li>
+          <h3>Email</h3>
+          <p>plusch321@mail.ru</p>
+        </li>
       </ul>
-  </nav>
+    </section>
     <section class="about">
+      <h2>Intro</h2>
+      <p>What am i</p>
+    </section>
+    <section class="about-info">
       <p>i enjoy styding JS, and i want to be pro at this</p>
     </section>
-    <section class="code-skills">
-      <ul>
-        <li>JS</li>
-        <li>CSS</li>
-        <li>HTML</li>
-        <li>Git</li>
-      </ul>
-      <p>Junior</p>
+    <section class="my-skills">
+      <h2>Skills</h2>
+      <p>Programming experience</p>
     </section>
-    <section class="links">
-      <a href="https://github.com/plusch011/sudoku" target="_blank">Solving sudoku</a>
+    <section class="my-skills-info">
+      <ol class="grid-ins">
+        <li>
+          <h3>1. CSS</h3>
+          <p>Junior lvl. Styding at Rolling Scopes school courses.</p>
+        </li>
+        <li>
+          <h3>2. JavaScript</h3>
+          <p>Junior lvl. Styding at Rolling Scopes school courses.</p>
+        </li>
+        <li>
+          <h3>3. Git</h3>
+          <p>Junior lvl. Styding at Rolling Scopes school courses.</p>
+        </li>
+        <li>
+          <h3>4. HTML</h3>
+          <p>Junior lvl. Styding at Rolling Scopes school courses.</p>
+        </li>
+        <li>
+          <h3>5. English language</h3>
+          <p>A2+ at EPAM website test</p>
+        </li>
+      </ol>
     </section>
-    <section class="educ-lvl">
-      <p>Average, learning JS CSS HTML</p>
-      <p>A2+ at EPAM site test</p>
+    <section class="portfolio">
+      <h2>Portfolio</h2>
+      <p>My code examples</p>
     </section>
-    <section class="contacts">
-      <p class="num">+375 29 358 95 45</p>
-      <p class="mail">plusch321@mail.ru</p>
+    <section class="portfolio-info">
+      <ol class="grid-ins">
+        <li>https://github.com/plusch011/sudoku</li>
+        <li>https://github.com/plusch011/sudoku</li>
+      </ol>
     </section>
-    <footer>
-      <p>Thanks. Have a nice day!</p>
-    </footer>
-  </div>
-    
+    <section class="footer">
+    </section>
+    <section class="footer-info">
+      <h2>Thanks for watching!</h2>
+    </section>
+  </div> 
 </body>
 </html>

@@ -1,15 +1,168 @@
-/* Позиционирование
-Блочная модель
-Типографика
-Оформление
-Анимация
-Разное */
+* {margin: 0; padding: 0;}
 
-.flex-box {
-  margin: auto auto;
+html {
+  font-family: "poppins";
+  font-size: 10px;
+}
 
+body {
+  margin: 0;
+  background: url(assets/background3.jpg);
+}
+
+.grid {
+  display: grid;
+  grid-template: 75vh 25vh repeat(3, auto)/ 2fr 3fr;
+  width: 1024px;
+  margin: auto;
+}
+
+.grid section { 
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
-  width: 1024px;
 }
+
+.img-box,
+.about,
+.my-skills,
+.portfolio {
+  align-items: flex-end;
+ }
+
+img,
+.about *:first-child,
+.my-skills *:first-child,
+.portfolio *:first-child {
+  margin-right: 80px;
+  margin-top: 80px;
+}
+
+.about *,
+.my-skills *,
+.portfolio * {
+  margin-right: 80px;
+}
+
+section h2 {
+  font-size: 2rem;
+}
+
+section p {
+  font-size: 1.5rem;
+}
+
+.about-info *:first-child,
+.footer-info *:first-child {
+  margin-left: 80px;
+  margin-top: 80px;
+}
+
+.about-info * {
+  margin-left: 80px;
+}
+
+.img-box {
+  justify-content: center;
+  background: #dddddddd;
+}
+
+img {
+  
+  border-radius: 100%;
+}
+
+.empty {
+  height: 150px;
+}
+
+#info {
+  justify-content: space-between;
+  align-items: flex-start;
+  background: #ddddddaa;
+}
+
+.name {
+  margin-left: 80px;
+}
+
+.name h1 {
+  font-weight: 500;
+  font-size: 7rem;
+  margin-top: -25px;
+}
+
+.name h2 {
+  font-weight: 200;
+  font-size: 4rem;
+}
+
+.name p {
+  font-weight: 300;
+  font-size: 2rem;
+}
+
+section .contacts {
+  width: 550px;
+  align-self: center;
+  border-top: 1px solid gray;
+}
+
+li {  
+  display: inline-block;
+  padding: 15px 30px 30px 30px;
+  line-height: 4rem;
+
+  font-size: 1.5rem;
+}
+
+.about {
+  font-size: 1.6rem;
+  background: #e6e6e6dd;
+}
+
+.about-info {
+  font-size: 1.6rem;
+  background: #eeeeeeaa;
+}
+
+.my-skills {
+  font-size: 1.6rem;
+  background: #d1d1d1dd
+}
+
+.my-skills-info {
+  background: #d3d3d3aa;
+}
+
+.grid-ins {
+  display: grid;
+  grid-template: 1fr / 1fr 1fr;
+  grid-auto-rows: 1fr;
+  margin-top: 80px;
+}
+
+.grid-ins li {
+  padding-top: 0;
+  padding-bottom: 15px;
+}
+
+.portfolio {
+  min-height: 200px;
+  background: #d3d3d3dd;
+}
+
+.portfolio-info {
+  min-height: 200px;
+  background: #ddddddaa;
+}
+
+.footer {
+  height: 200px;
+  background: #ccccccdd;
+}
+
+.footer-info {
+  height: 200px;
+  background: #c0c0c0dd;
+}
+
